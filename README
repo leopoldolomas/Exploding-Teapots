@@ -1,0 +1,11 @@
+Keywords: Envrmnt OpenGL Exploding Teapots
+
+This is a quick assignment I made in about a week, it is the Exploding Teapots game (well... just note that I used the "Monkey head" model from Blender instead of teapots), where you tap on each object and it explodes, the explosion animation is performed by the Vertex Shader (GLSL). Here is a more detailed description of the game:
+
+- Monkey heads are rendered on the screen. The monkey head model was taken from Blender, it was exported to OBJ format, I had to create a special tool to convert it to data that the videogame can read, the results are in the raw/positions and raw/normals files.
+- You can rotate the camera by dragging on the screen, I didn't have time to map the sensors' movements to implement "Augmented Reality", but since the videogame already supports a rotating camera, it should be fairly easy to do.
+- Each time you tap on a Monkey Head it explodes, notice how the game differentiates between dragging and tapping gestures.
+
+You can take a look at the Demo here: http://www.youtube.com/watch?v=Cl92VtpqUxU
+
+Have fun!
